@@ -1,0 +1,40 @@
+kubectl --version
+
+kubectl delete all --all
+kubectl get nodes
+kubectl get nodes -o wide
+
+kubectl get pods
+kubectl get pods -o wide
+kubectl run nginx --image=nginx
+kubectl describe pod nginx
+kubectl delete pod nginx
+
+kubectl create -f fileName
+kubectl apply -f fileName
+
+We use kubectl run command with --dry-run=client -o yaml option to create a manifest file :-
+
+kubectl get replicationcontroller (s)
+kubectl get replicaset (s)
+kubectl get rs
+
+# To scale
+kubectl replace -f replicaset-definition.yaml
+kubectl edit replicaset name
+
+kubectl scale --replicas=6  -f replicaset-definition.yaml
+
+kubectl scale --replicas=6  replicaset *replicaset-name (type - name)
+
+kubectl explain replicaset
+
+kubectl get all
+
+kubectl create deployment --help
+
+
+kubectl get pods,svc
+
+
+minikube service list

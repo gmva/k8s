@@ -1,0 +1,15 @@
+# This is comment
+# key-value pair
+Fruit: Apple
+
+# Array/List - Ordered
+# Dictionary - unordered
+
+Fruits:
+  - Orange
+  - Apple
+  - Banana:
+    # Dictionary
+    Calories: 105
+    Fat: 0.4 g
+    Carbs: 27 g

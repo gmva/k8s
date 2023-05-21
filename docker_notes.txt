@@ -1,0 +1,15 @@
+# To Create
+docker create image-name command
+docker start -a ID or name
+
+# To Clean
+docker container prune
+docker system prune
+
+docker logs ID
+
+i connect to STDIN -t to format nicely
+docker exec -it ID redis-cli
+
+To access shell
+docker exec -it ID (sh or bash)

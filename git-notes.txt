@@ -1,0 +1,12 @@
+git commit -am "message" (only for existing files)
+git switch -c branch-name
+
+git log --oneline
+
+# To delete
+git branch -d (-D) branch-name # from other branch
+
+# To rename
+
+git branch -m  # on branch
+

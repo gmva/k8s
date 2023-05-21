@@ -1,0 +1,6 @@
+wget https://releases.hashicorp.com/terraform/1.4.0/terraform_1.4.0_linux_amd64.zip
+
+unzip terraform_1.4.0_linux_amd64.zip
+
+Combination of : Resource Type + Local Resource Name
+terraform destroy -target

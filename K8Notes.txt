@@ -1,0 +1,10 @@
+Cloud Native Computing Foundation CNCF
+
+Container Runtime Interface (CRI)
+Open Container Initiative (OCI) (imagespec runtimespec)
+
+ctr - containerD command line tool (limited, for debuging)
+
+nerdctl - for containerD
+
+crictl form K8S for debuging
